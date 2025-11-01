@@ -57,6 +57,7 @@ Presentation Generation: python-pptx constructs a PowerPoint with titles, sectio
 Download: The user receives a .pptx file ready for submission or presentation.
 
 # Example Flow
+```text
 ┌──────────────┐
 │  User enters │
 │ Paper title  │
@@ -64,7 +65,7 @@ Download: The user receives a .pptx file ready for submission or presentation.
        ↓
 ┌──────────────┐
 │ System fetches│
-│  Academic APIs│
+│ Academic APIs │
 └──────┬───────┘
        ↓
 ┌──────────────┐
@@ -81,6 +82,8 @@ Download: The user receives a .pptx file ready for submission or presentation.
 │User downloads│
 │ Final slides │
 └──────────────┘
+```
+
 
 
 # Example Sections
