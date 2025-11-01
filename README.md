@@ -108,6 +108,8 @@ A fully formatted PowerPoint (____.pptx)
 5 slides generated automatically with consistent academic styling
 
 AI-summarized content ready for presentation 
+<img width="1908" height="988" alt="LLM_generated_ppt_photo" src="https://github.com/user-attachments/assets/230ce923-8168-4f47-8faf-5026e66380cf" />
+
 
 # Conclusion
 
