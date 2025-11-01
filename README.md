@@ -57,15 +57,31 @@ Presentation Generation: python-pptx constructs a PowerPoint with titles, sectio
 Download: The user receives a .pptx file ready for submission or presentation.
 
 # Example Flow
-User enters → "Attention Is All You Need"
-↓
-System fetches → from Semantic Scholar or arXiv
-↓
-Ollama generates → AI-crafted slide content
-↓
-Auto-builds → research_presentation.pptx
-↓
-User downloads → Final Presentation
+┌──────────────┐
+│  User enters │
+│ Paper title  │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ System fetches│
+│  Academic APIs│
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│  LLM creates │
+│ Slide content│
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ Auto-builds  │
+│ Presentation │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│User downloads│
+│ Final slides │
+└──────────────┘
+
 
 # Example Sections
 
